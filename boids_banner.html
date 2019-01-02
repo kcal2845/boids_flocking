@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <div style="width:100%;height:100%;text-align: center;">
-  <canvas id="world" style="border:1px solid black"></canvas>
+  <canvas id="world" style="border:1px solid black"></canvas><br>
+  Boids 알고리즘
 </div>
 <script>
   //상수
@@ -11,7 +12,7 @@
   minrange = 10 //안전 거리
   range = 50 //주변 판단 거리
   worldwidth = 200 //필드 x축 크기
-  worldheight = 120 //필드 y축 크기
+  worldheight = 100 //필드 y축 크기
   function random(max,min){
     return Math.random()*(max-min) + min
   }
